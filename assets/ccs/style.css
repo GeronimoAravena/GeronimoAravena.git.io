@@ -1,7 +1,31 @@
-.Gero{
-    font-family: 'Righteous';
-    font-size: 40px;
-    color: #33d9a5;  
-    text-decoration: none;
-    
+/*Variable de Font 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Sedgwick Ave Display', cursive;*/
+
+:root  {
+    --fontsecondary:'Lobster', cursive;
+    --fontthird:'Abril Fatface', cursive;
+    --fontmain: 'Sedgwick Ave Display', cursive;
+    --fontfourth: 'Righteous', cursive;
 }
+.Gero {
+    font-family: var(--fontfourth);
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 20px;
+    }
+#navbarSupportedContent{
+    font-family: var(--fontmain);
+    font-size: 1.2rem;
+
+}
+#navbarSupportedContent li{
+    padding-left: 20px;
+}
+.Gero:hover {
+    Color: white;
+    }
+
