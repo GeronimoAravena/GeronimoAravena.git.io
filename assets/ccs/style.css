@@ -18,14 +18,52 @@ font-family: 'Sedgwick Ave Display', cursive;*/
     padding-left: 20px;
     }
 #navbarSupportedContent{
-    font-family: var(--fontmain);
+    font-family: var(--fontsecondary);
     font-size: 1.2rem;
 
 }
 #navbarSupportedContent li{
     padding-left: 20px;
+    margin: auto;
+    text-align: none;
+
 }
 .Gero:hover {
     Color: white;
     }
+
+/*Inicio Seccion*/
+.InicioA {
+    background: linear-gradient (to top, rgba(30,35,38,.8),  rgba(30,35,38,1));
+    background-size: cover;
+    height: 110vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    }
+
+    .InicioA .contenido-banner {
+        padding: 20px;
+        background-color: #1e2326;
+        max-width: 600px;
+        margin:auto;
+        text-align: center;
+        border-radius: 40px;
+    }
+    .contenedor-img {
+        padding-left: 0x;
+        
+        }
+    .imgB {
+        object-fit: cover;
+        height: 415px;
+        width: 425px;
+    }
+    .Yo {
+        font-family: var(--fontfourth);
+    } 
+    .Tu {
+        font-family: var(--fontsecondary);
+    }
+
 
